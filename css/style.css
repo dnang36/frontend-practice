@@ -172,3 +172,40 @@ color: #3B4144;
 font-size: 14px;
 color: #007882;
 }
+.cnt-tin-tuc{
+    display:flex;
+    margin-top: 33px;
+}
+
+.cnt-title{
+    line-height: 27px;
+}
+
+.cnt-des{
+    line-height: 22px;
+}
+
+.cnt-name{
+    font-weight: 400;
+font-size: 15px;
+color: #3B4144;
+}
+
+.cnt-day{
+    font-weight: 400;
+font-size: 15px;
+color: #3B4144;
+opacity: 0.5;
+}
+
+.cnt-chinh{
+    font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+color: #3B4144;
+opacity: 0.5;
+}
+
+.ctn-2{
+    margin-left:24px;
+}

@@ -1,0 +1,174 @@
+*{
+    font-family: 'Montserrat', monospace;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header{
+    background: rgba(255, 255, 255, 0.7);
+    height: 75px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.header-menu{
+    margin-top: 20px;
+}
+
+.menu-item{
+    
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color:#3B4144;
+    opacity:0.5;
+    margin-right: 40px;
+}
+
+.header-logo, .header-user{
+    margin-top: 20px;
+}
+
+.logo-image{
+    height:20px;
+}
+
+.logo-icon{
+    height: 26px;
+}
+
+.btn{
+    background: #D93C23;
+    border-radius: 30px;
+    color:#fff;
+    padding:6px 24px;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    width: 131px;
+    height: 32px;
+    line-height: 16px;
+    border-style: none;
+    margin-left:24px;
+}
+
+.header-user{
+    display:flex;
+}
+
+.name{
+    color: #272727;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px; 
+    margin-left: 24px;
+}
+
+.name-des{
+    font-weight: 400;
+    font-size: 12px;
+    opacity: 0.5;
+    text-align: right;
+   
+}
+
+.user-img{
+    height: 36px;
+    border-radius: 24px;
+    margin-right: 20px;
+    margin-left:10px;
+}
+
+.slide{
+    background-image: url('../images/slider.png');
+    width: 80%;
+    height: auto;
+    border-radius: 24px;
+    margin: 0 auto;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    display:flex;
+    flex-flow: column;
+    
+}
+
+.logo-slider{
+    width: 350px;
+    height: 48px;
+    margin: 165px 250px 0 120px;
+}
+
+.logo-slider1{
+    width: 350px;
+    height: 28px;
+    margin-left: 120px;
+    margin-top: 10px;
+}
+
+.nav{
+   margin: 36px auto;
+   
+}
+
+.nav-item{
+    margin-right: 56px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #3B4144;
+    
+}
+
+.color{
+    background: #007882;
+    border-radius: 36px;
+    color:#fff;
+    padding: 6px 36px;
+}
+
+.content{
+    margin: 0 auto;
+    width:65%
+}
+
+.tin-tuc{
+    display:flex;
+    align-items: center;
+    margin:0 auto;
+    margin-left: 300px;
+}
+
+.tin-new{
+    font-weight: 700;
+    font-size: 32px;
+    margin-left: 30px;
+}
+
+.cnt-detail{
+   
+}
+
+.cnt-1{
+    height: 455px; 
+    width:576px;
+}
+
+.cnt-title{
+    font-weight: 600;
+font-size: 18px;
+color: #3B4144;
+}
+
+.cnt-des{
+    display:flex
+}
+
+.xa-hoi{
+    font-weight: 600;
+font-size: 14px;
+color: #007882;
+}

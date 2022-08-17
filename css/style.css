@@ -23,6 +23,10 @@ a{
     height: 75px;
     display:flex;
     justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 .header-menu{
@@ -96,10 +100,9 @@ a{
     margin-right: 20px;
     margin-left:10px;
 }
-/*.slider{*/
-/*    width: 100%;*/
-/*    height: 100%;*/
-/*}*/
+.slider{
+    margin-top: 75px;
+}
 
 .slide{
     background-image: url('../image/slider.png');
@@ -128,9 +131,12 @@ a{
 }
 
 .nav{
-   margin: 36px auto;
+   margin: 16px auto;
     display: flex;
-justify-content: space-between}
+    justify-content: space-between;
+    width: 50%;
+
+}
 
 .nav-item{
     margin-right: 56px;
@@ -176,6 +182,20 @@ justify-content: space-between}
     margin: auto 3px;
 }
 
+.cnt-icon{
+    position: absolute;
+    margin-left: -60px;
+    width: 20px;
+    width: 35px;
+    margin-top: 10px;
+}
+.cnt-icon2{
+    position: absolute;
+    margin-left: 220px;
+    height: 19px;
+    width: 20px;
+    margin-top: 36px;
+}
 .tin-img{
     width: 36px;
     height: 40px;
@@ -296,7 +316,12 @@ justify-content: space-between}
     margin-top: 56px;
 
 }
-
+.v-detail{
+    margin-top: -75px;
+    font-weight: 600;
+    color: #ffff;
+    font-size: 18px;
+}
 .video-title{
     display: flex;
     justify-content: space-between;
@@ -328,6 +353,8 @@ justify-content: space-between}
 
 .v-box2{
     width: 30%;
+    overflow: auto;
+    height: 340px;
 }
 
 .v-img{
@@ -359,6 +386,7 @@ justify-content: space-between}
     width: 100%;
     justify-content: space-between;
     margin-top: 36px;
+    flex-direction: row-reverse;
 }
 
 .img-list{
@@ -520,6 +548,12 @@ justify-content: space-between}
         display: block;
         margin-right: 26px;
     }
+    .li-detail{
+        margin-top: 36px;
+    }
+    .nav{
+        width: 90%;
+    }
     .header-logo{
         /*margin-left: -350px;*/
         width: 50%;
@@ -576,30 +610,18 @@ justify-content: space-between}
     .video-detail{
         display: block;
     }
+    .v-click{
+        margin-right: 16px;
+    }
     .v-box1{
         width: 100%;
     }
     .v-box2{
-        width: 100%;
         display: flex;
+        margin-top: 36px;
+        overflow-x: auto;
+        width: 100%;
     }
-    /*.v-click{*/
-    /*    margin-right: 10px;*/
-    /*}*/
-    /*.v-title{*/
-    /*    line-height: 20px;*/
-    /*}*/
-    /*.li-chinh{*/
-    /*    line-height: 16px;*/
-    /*}*/
-    /*.img-list{*/
-    /*    width: 40%;*/
-    /*    !*object-fit: contain;*!*/
-    /*}*/
-
-    /*.li-des{*/
-    /*    width: 58%;*/
-    /*}*/
 }
 
 @media screen and (max-width: 375px) {
@@ -607,7 +629,18 @@ justify-content: space-between}
         width: 100%;
     }
     .nav{
-        display: block;
+        display: flex;
+        margin-bottom: 16px;
+    }
+    .nav-item{
+        margin-right: 56px;
+        font-weight: 600;
+        font-size: 12px;
+        color: #3B4144;
+        margin: 0 auto;
+    }
+    .color{
+        display: none;
     }
     .slide{
         height: 150px;
@@ -621,9 +654,23 @@ justify-content: space-between}
     .cnt-chinh-1{
         display: block; !important;
     }
-    .img-list{
-        position: absolute;
-        margin-top: 100px;
+    .li-detail{
+        display: block;
+        width: 100%;
+    }
+    .li-des{
+        width: 100%;
+        margin: 0;
+    }
+    .v-detail{
+        display: block;
+        margin: 0;
+        color: #3B4144;
+        font-size: 14px;
+
+    }
+    .v-title,.cnt-des{
+        font-size: 12px;
     }
     .list-title{
         font-weight: 600;
@@ -631,9 +678,6 @@ justify-content: space-between}
         color: #3B4144;
         line-height: 150%;
         margin: 0;
-        position: absolute;
-        margin-top: -33px;
-        width: 100%;
     }
     .li-chinh{
         font-weight: 400;
@@ -641,8 +685,25 @@ justify-content: space-between}
         line-height: 150%;
         color: #3B4144;
         opacity: 0.5;
-        margin-left: 160px;
-        margin-top: 95px;
+        /* margin-top: -9px; */
+        position: absolute;
+        margin-left: 120px;
+        text-overflow: ellipsis;
+        width: 61%;
+    }
+    .chi-tiet-anh{
+        display: block;
+    }
+    .anh-first{
         width: 100%;
+    }
+    .ct-anh{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .ct-anh1{
+        width: 48%;
+        margin-top: 10px;
     }
 }

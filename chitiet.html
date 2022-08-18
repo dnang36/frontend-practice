@@ -14,10 +14,10 @@
 <body>
 <header class="header">
     <div class="icon">
-        <a class="icon-menu fa-solid fa-bars-staggered" href=""></a>
+        <a class="icon-menu fa-solid fa-bars-staggered" href="#"></a>
     </div>
     <div class="header-menu">
-        <a href="#" class="menu-item" style="margin-left: 48px;">Mua nhà</a>
+        <a href="#" class="menu-item">Mua nhà</a>
         <a href="#" class="menu-item">Thuê nhà</a>
         <a href="#" class="menu-item">Khám phá</a>
         <a href="#" class="menu-item" style="border-bottom-style:solid;border-bottom-color:#D93C23;border-radius: 1px;opacity:1">Blog</a>
@@ -37,24 +37,51 @@
     </div>
 </header>
 
+<div class="menu_mobile">
+    <div class="mobile_header">
+        <a href="#" class="mobile_close fa-solid fa-x"><img src="./images/logo.png" alt="" class="mobile_logo"></a>
+    </div>
+    <ul class="mobile_list">
+        <li class="mb_item">Mua nhà</li>
+        <li class="mb_item">Thuê nhà</li>
+        <li class="mb_item">Khám phá</li>
+        <li class="mb_item">Blog</li>
+    </ul>
+    <button class="mb_btn_up">Đăng Bài</button>
+    <div class="mb_btn">
+        <button class="mb_sign_in">Đăng Nhập</button>
+        <button class="mb_sign_up">Đăng Kí</button>
+    </div>
+</div>
+
 <div class="content">
     <div class="tin-chi-tiet">
         <div class="video-title">
             <a href="index.html" class="tin-dir">< Quay lại</a>
             <div class="chuyen-muc">
-                <p>Chuyên mục:  <a href="xahoi.html" class="chuyen-muc item-chuyen-muc color">Xã hội</a></p>
+                <p class="chuyen-muc-text">Chuyên mục: <a href="xahoi.html" class="chuyen-muc item-chuyen-muc color">Xã hội</a></p>
+
             </div>
         </div>
             <p class="title-chi-tiet">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultrices iaculis est curabitur arcu augue amet. Nisi augue sit euismod
             </p>
-        <div class="cnt-des">
-            <p class="xa-hoi">Xã hội</p>
-            <p class="cnt-dot"></p>
-            <p class="cnt-name">Nguyễn Đoàn Đăng</p>
-            <p class="cnt-dot"></p>
-            <p class="cnt-day">24/02/2020</p>
+        <div class="nav-bar">
+            <div class="cnt-des">
+                <p class="xa-hoi">Xã hội</p>
+                <p class="cnt-dot"></p>
+                <p class="cnt-name">Nguyễn Đoàn Đăng</p>
+                <p class="cnt-dot"></p>
+                <p class="cnt-day">24/02/2020</p>
+            </div>
+            <div class="nav-btn">
+                <button class="btn-mail "><i class="fa-solid fa-envelope"></i>Gửi Mail</button>
+                <button class="btn-facebook"><i class="fa-brands fa-facebook"></i>Chia sẻ</button>
+                <button class="btn-save"><i class="fa-solid fa-heart"></i>Lưu</button>
+            </div>
         </div>
+
+
          <img src="./image/chi_tiet_img/img_nha.png" alt="" class="img-chi-tiet">
         <p class="des-chi-tiet">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem id varius rutrum aliquam. Diam ullamcorper ut mattis fringilla nunc, sed eu nisi. Amet, duis auctor tempor sit mauris rhoncus. Pretium at massa sed morbi sit tincidunt arcu. Pharetra, turpis id elementum cursus amet, eu scelerisque ipsum. Suspendisse nulla congue mauris mattis diam sed venenatis non bibendum. Vestibulum, lobortis aenean lorem aenean sagittis. Et nibh ullamcorper justo cursus eget. Tortor faucibus volutpat, vel nullam sed massa ullamcorper in ultrices. Augue viverra tincidunt amet, neque, dictum tellus turpis. Ipsum nisl mi est, tempus phasellus morbi quisque. Mi sed sit amet ipsum. Mi erat leo fringilla ullamcorper.
@@ -172,5 +199,6 @@
         </a>
     </div>
 </div>
+<script src="./js/main.js"></script>
 </body>
 </html>

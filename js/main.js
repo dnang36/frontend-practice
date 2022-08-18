@@ -7,5 +7,5 @@ btnMenu.onclick = function () {
 }
 
 btnClose.onclick = function () {
-    Menu.style.display='none';
+    Menu.style.display = 'none';
 }

@@ -43,6 +43,17 @@ a{
     margin-right: 40px;
 }
 
+.menu-item:hover{
+    border-bottom-style:solid;
+    border-bottom-color:#D93C23;
+    border-radius: 1px;
+    opacity:1
+}
+
+.btn:hover{
+    background-color: #3B4144;
+}
+
 .header-logo, .header-user{
     margin-top: 20px;
 }
@@ -116,6 +127,7 @@ a{
 .mobile_header{
     height: 80px;
     margin: 20px;
+    margin: 50px;
 }
 
 .mobile_close{
@@ -124,7 +136,8 @@ a{
 }
 
 .mobile_logo{
-    height: 14px;
+    height: 30px;
+    margin-left: 10px;
 }
 
 .mobile_list{
@@ -191,6 +204,7 @@ a{
     display:flex;
     flex-flow: column;
     flex-flow: column;
+    padding: 56px 0;
 }
 
 .logo-slider{
@@ -207,10 +221,10 @@ a{
 }
 
 .nav{
-   margin: 16px auto;
+   margin: 36px auto;
     display: flex;
     justify-content: space-between;
-    width: 50%;
+    width: 100%;
 
 }
 
@@ -239,12 +253,46 @@ a{
 .color:hover{
     background:#3B4144;
     color: #ffffff;
-
 }
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-mail, .btn-facebook, .btn-save{
+    height: 32px;
+    border: none;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 30px;
+    padding: 9px 30px;
+}
+
+.btn-mail{
+    color: #fff;
+    background: #CCCCCC;
+}
+
+.btn-facebook{
+    color: #fff;
+    background: #395185;
+}
+
+.btn-save{
+    border: 1px solid;
+    background: #fff;}
 
 .content{
     margin: 0 auto;
-    width:50%;
+    width:60%;
+    /*max-width: 1130px;*/
+}
+
+.container{
+    margin: 0 auto;
+    width:100%;
+    max-width: 1380px;
 }
 
 .cnt-img-l, .cnt-img-r{
@@ -282,7 +330,7 @@ a{
     display:flex;
     align-items: center;
     margin:0 auto;
-    margin-left: 300px;
+    margin-left: 390px;
 }
 
 .tin-new{
@@ -332,9 +380,9 @@ a{
 }
 
 .cnt-des{
-    display:flex;
-    line-height: 150%;
-    margin: 10px 0;
+    display: flex;
+    line-height: 1.5;
+    margin: 7px 0 11px 0;
 }
 
 .xa-hoi{
@@ -344,7 +392,7 @@ a{
 }
 .cnt-tin-tuc{
     margin-top: 40px;
-    width: 110%;
+    width: 100%;
 }
 
 .cnt-name{
@@ -398,6 +446,7 @@ a{
     font-weight: 600;
     color: #ffff;
     font-size: 18px;
+    padding-left:24px ;
 }
 .video-title{
     display: flex;
@@ -602,6 +651,7 @@ a{
     line-height: 0px;
     background: #E6E6E6;
     border-radius: 36px;
+    color: #3B4144;
 }
 
 @media screen and (max-width: 1024px){
@@ -640,7 +690,7 @@ a{
     }
     .slide{
         background-image: url('../image/slider.png');
-        width: 90%;
+        width: 80%;
         height: 257px;
         border-radius: 24px;
         margin: 0px auto;
@@ -716,6 +766,13 @@ a{
         color: #3B4144;
         margin: 0 auto;
     }
+    .nav-bar{
+        display: block;
+        width: 101%;
+    }
+    .btn-mail{
+        width: 30%;
+    }
     .color{
         display: none;
     }
@@ -783,5 +840,8 @@ a{
     .ct-anh1{
         width: 48%;
         margin-top: 10px;
+    }
+    .xh-img{
+        display: block;
     }
 }

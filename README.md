@@ -7,7 +7,7 @@ Link đề bài: https://www.figma.com/file/OqoskP3WsOjZYsIaXsqdm0/ReviewNha?nod
 Cách sử dụng kết quả:
 - Download code và run code tại đường dẫn https://github.com/dnang36/frontend-practice hoặc truy cập website https://dnang36.github.io/frontend-practice/
 ## Responsive trên màn hình:
- - 1027px
+ - 1022 px
  - 768 px
  - 375 px
 ## Được viết bằng :
